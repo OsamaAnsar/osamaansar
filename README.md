@@ -2,7 +2,7 @@
 
 Senior Software Engineer with 5+ years shipping production web apps (Angular, React, Vue, Node.js) — now going deep on **TypeScript RAG systems, agentic pipelines, and LLM evaluation infrastructure**.
 
-I read library source before I trust it. That habit has turned into two live PRs against real vector-database clients this month.
+I read library source before I trust it. That habit has turned into six live PRs against real vector-database clients this month.
 
 ---
 
@@ -20,6 +20,9 @@ All TypeScript, all with real test suites and live demos — no framework hiding
 ### 🌱 Open source
 
 - **[weaviate/typescript-client#471](https://github.com/weaviate/typescript-client/pull/471)** — fixed `Boost` time/numeric decay silently dropped by `fromPartial`, plus a stray debug log.
+- **[weaviate/typescript-client#468](https://github.com/weaviate/typescript-client/pull/468)** — added centered RQ4 quantization support (`centering`, `trainingLimit`) to the RQ quantizer config.
+- **[weaviate/typescript-client#466](https://github.com/weaviate/typescript-client/pull/466)** — added an `endpoint` override to the `text2vec-openai` and `text2vec-morph` vectorizer configs.
+- **[weaviate/typescript-client#465](https://github.com/weaviate/typescript-client/pull/465)** — added a `configure.generative.deepseek()` module config builder.
 - **[weaviate/typescript-client#464](https://github.com/weaviate/typescript-client/pull/464)** — fixed `data.ingest()` silently storing empty objects for the documented unwrapped input shape.
 - **[qdrant/qdrant-js#171](https://github.com/qdrant/qdrant-js/pull/171)** — fixed the client silently dropping a reverse-proxy path prefix when constructed via `url`.
 
